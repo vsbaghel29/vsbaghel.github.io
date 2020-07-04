@@ -1,2 +1,2 @@
-# vsbaghel29.github.io
+# vsbaghel.github.io
 My WebPage
