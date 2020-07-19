@@ -3,6 +3,7 @@
 <head>
 <title>Vivek Singh Baghel</title>
 <!--link rel="icon" href="logo.png"-->
+<!--link rel="icon" href="vsbaghel29.github.io/logo_me3.png"-->
 <link rel="icon" href="vsbaghel29.github.io/logo_me3.png">
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -14,13 +15,13 @@ margin: 0;
 }
 
 #container { 
-width: 1000px;
+width: 100%;
 margin: 0 auto;
 background: #FFFFFF;
 }
 
 #header { 
-padding: 45px 0 20px 40px;
+padding: 20px 60px 10px 50px;
 } 
 
 #header a {
@@ -32,13 +33,13 @@ font-family: "Georgia";
 
 #menu {
 background-color: #1394c4; 
-padding: 6px 0 6px 40px;
+padding: 6px 50px 6px 50px;
 }
 
 #menu a {
 color: rgb(255,255,255);
 text-decoration: none; 
-font-size: 14px; 
+font-size: 16px; 
 font-family: "Georgia";
 }
 
@@ -48,9 +49,11 @@ color: #ecf2f3;
 
 #sidebar {
 float: left;
-width: 80px;
-height: 300px;
-padding: 20px 10px 10px 20px;
+min-width: 200px;
+max-height: auto;
+min-height: 430px;
+height: auto;
+padding: 20px 10px 10px 50px;
 margin: 0;
 }
 
@@ -58,10 +61,10 @@ margin: 0;
   background: rgb(255,255,255);
   color: #444444;
   font-family: "Georgia";
-  font-size: 10px;
+  font-size: 11px;
   padding: 15px;
-  width: 100px;
-  height: 215px;
+  width: 120px;
+  height: auto;
   overflow: scroll;
   border: 1px solid #ccc;
 }
@@ -69,24 +72,42 @@ margin: 0;
 h1 {
 margin: 0px;
 color: #444444; 
-font-size:24px; 
+font-size:25px; 
 font-family: "Georgia"; 
 font-weight: normal;
 }
 
 h2 {
 color: #444444;
-font-size: 15px; 
+font-size: 16px; 
 margin: 5px 0 5px 0;
 }
 
+table {
+  font-family: "Georgia";
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  
+  text-align: left;
+  padding: 0px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
 #main { 
-margin: 0 0 0 140px;
-padding: 20px 20px 20px 30px;
+margin: 0 20px 0 200px;
+padding: 20px 50px 20px 30px;
 color: #444444;
 font-family: "Georgia";
-font-size: 13px; 
-height: 430px;
+font-size: 15px; 
+height: auto;
+min-height: 450px;
+min-width: 150px;
 line-height: 18px;
 text-align: justify;
 } 
@@ -101,7 +122,7 @@ color: #444444;
 }
 
 #footer {
-padding: 6px 40px 6px 40px;
+padding: 6px 50px 6px 50px;
 background: #d6d6d6; 
 font-family: "Georgia";
 color: #444444;
@@ -150,79 +171,106 @@ img {
   cursor: pointer;
   background-color: #008CBA;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+ width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
 </style>
 </head>
+<!--Body-->
 <body>
 <div id="container">
-	<div id="header"> <h1><b>Vivek Singh Baghel</b></h1><h2>Research Scholar,</h2>
-		<h2>Indian Institute of Technology Indore, Indore-453552, India.</h2>
-					
+	<div id="header"> 
+		<table>
+		<td style="font-size: 16px; vertical-align: text-top;">	
+		<h1><b>Vivek Singh Baghel</b></h1><h2>Research Scholar,</h2>Computer Science &amp; Engineering.
+		<!--h2>Indian Institute of Technology Indore, Indore-453552, India.</h2-->
+		</td>
+		<td style="vertical-align: text-top;font-size: 16px; text-align: right;line-height: 25px;">
+			Discipline of Computer Science &amp; Engineering,<br>
+			Indian Institute of Technology Indore, Indore-453552, India.<br>
+			<b>Email:</b> phd1801201005@iiti.ac.in, vsbaghel29@gmail.com
+			
+		</td>
+		</table>			
 					
   </div>
   <div id="menu"> 
-	  			<a href="index.html"><b>Home</b></a> &nbsp; &nbsp; &nbsp; &nbsp; 
+  				<a href="index.html"><b>Home</b></a> &nbsp; &nbsp; &nbsp; &nbsp; 
 				<!--a href="research.html">Research</a> &nbsp; &nbsp; &nbsp; &nbsp;--> 
+				<a href="education.html"><b>Education</b></a> &nbsp; &nbsp; &nbsp; &nbsp;
 	  			<a href="publication.html"><b>Publications</b></a> &nbsp; &nbsp; &nbsp; &nbsp; 
-				<!--a href="education.html">Education</a> &nbsp; &nbsp; &nbsp; &nbsp;--> 
-	  			<a href="http://cse.iiti.ac.in/"><b>CSE_IITI</b></a> </div>
+				<a href="http://cse.iiti.ac.in/"><b>CSE_IITI</b></a> </div>
 	
 	<div id="sidebar">
-		<img style="width: 80px; height: 120px;" alt="" src="vsbaghel29.github.io/vivek.jpg" align="center">&nbsp;
-		<!--<p><b><u>News&Events </u></b> </p>
+		<img style="width: 120px; height: 165px;" alt="" src="vsbaghel29.github.io/vivek.jpg" align="center">&nbsp;
+		<p><b><u>Updates:</u></b> </p>
 		<div id="overflowTest">
-        <li> PhD in Computer Science &amp; Engineering, IIT Indore, (Pursuing-Dec. 2018 onwards).&nbsp;<br></li>
-		&nbsp;
-		<li> M.Tech in Information Technology, SCIS, University of Hyderabad, June 2018.&nbsp;<br></li>
-		&nbsp;
-		<li> B.E. in Computer Science &amp; Engineering , UIT-RGPV, Bhopal, June 2015.&nbsp;<br></li>
-		&nbsp;
-		</div>-->
+        <li> ---Coming Soon---<br></li>
+		</div>
 	</div>
 	
 	<div id="main">
   
 		<!--Personal Info-->
-		Currently, I am a research scholar in the Department of Computer Science &amp; Engineering, 
-		Indian Institute of Technology Indore. I am working in Pattern Analysis &amp; Machine Intelligence lab 
-		under the supervision of <a href="http://www.iiti.ac.in/people/~surya/" target="_blank"> Dr. Surya Prakash</a>.
+		<big><b><u>About:</u></b></big>
+		<p style="LINE-HEIGHT:20px;">I am a research scholar in the Department of Computer Science &amp; Engineering, IIT Indore, Indore, India. I am working in the Pattern Analysis & Machine Intelligence lab under the supervision of  <a href="http://www.iiti.ac.in/people/~surya/" target="_blank"> Dr. Surya Prakash</a>. My research interest mainly includes Biometrics,  Computer Vision,  Machine Learning, and Deep Learning.</p>
+		<p style="LINE-HEIGHT:20px;">&emsp;&emsp;In my PhD thesis work, I am currently working in the area of biometric template protection. My work involves the development of secure and efficient technique to protect the user template stored in the database as the databases are vulnerable to attack which can cause an identity theft of a user. Right now I am working towards to come up with robust techniques to secure the fingerprint user template. </p>
+		<p style="LINE-HEIGHT:20px;">&emsp;&emsp;I have also keen interest towards the Machine Learning and Deep Learning techniques. In future, I have plans to work in these field which includes the contact less fingerprint recognition using Deep Learning, 3D fingerprint recognition,  generation of synthetic biometric data by utilizing the generative deep learning models, and construction of 3D equivalent of 2D images. </p>
 
-		<p>	Email: phd1801201005@iiti.ac.in, vsbaghel29@gmail.com &nbsp;<br>
-			Mob: +91-9407848428 &nbsp;</p>
      		<p>
 			<a href="https://scholar.google.com/citations?user=K1iqoz8AAAAJ&hl=en" target="_blank" class="button"><b>Google Scholar</b></a>
 			<a href="https://dblp.uni-trier.de/pers/hd/b/Baghel:Vivek_Singh" target="_blank" class="button"><b>DBLP</b></a>
-			<a href="https://www.linkedin.com/in/vivek-singh-baghel-351a03120/" target="_blank" class="button"><b>Linkedin</b></a>
+			<a href="https://www.linkedin.com/in/vivek-singh-baghel-351a03120/" target="_blank" class="button"><b>Linkedin</b>
+				<a href="file://F:/vsbaghel29.github.io/[2020_02_08]_CV_[Vivek_Singh_Baghel].pdf" target="_blank" class="button"><b>R&eacute;sum&eacute;</b></a>
 		</p>
 
-		<!--Education-->
-		<hr style="width: 100%; height: 1px;">
-		<big><b>Education:</b></big>
-		<ul>
-        <li> PhD in Computer Science &amp; Engineering, IIT Indore, (Pursuing-Dec. 2018 onwards).&nbsp;<br></li>
-		<li> M.Tech in Information Technology, SCIS, University of Hyderabad, June 2018.&nbsp;<br></li>
-		<li> B.E. in Computer Science &amp; Engineering , UIT-RGPV, Bhopal, June 2015.&nbsp;<br></li>
-		</ul>
+		<hr style="width: auto; height: 1px;">
 		
-
-
 		<!--Research Interests-->
-		<hr style="width: 100%; height: 1px; ">
+		<!--Research Interests-->
+	
 		<big ><b>Research Interests:</b><br></big>
 		<ul>
 		<li>Biometrics</li>
 		<li>Computer Vision</li>
-		<li>Image Processing</li>
 		<li>Machine Learning</li>
 		<li>Deep Learning</li>
+		<li>Social Network Analysis</li>
 		
         
 		</ul>
-		<hr style="width: 100%; height: 1px;">
+		
+		<hr style="width: auto; height: 1px;">
 		
     		
   </div>
-	<div id="footer"> <div align=center><!--h>Allrightreseverd@viveksinghbaghel </h--></div><!--span class="separator">|</span>&nbsp;-->  </div>
+	<div id="footer"> <div align=center><h>All right reseverd@vivek singh baghel </h></div><!--span class="separator">|</span>&nbsp;-->  </div>
 	
 <div align=center></a></div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("menu");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+
 </body>
 </html>
