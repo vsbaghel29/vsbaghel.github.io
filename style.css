@@ -1,0 +1,279 @@
+body  {
+background: #FFFFFF;
+/*margin-left: 15%;
+margin-right: 15%;*/
+margin: 0;
+}
+
+#container { 
+width: 90%;
+height: 100%;
+min-width: 800px;
+margin-top: 0px;
+margin-left: 150px;
+margin-right: 200px;
+background: #FFFFFF;
+}
+
+#header { 
+padding: 20px 60px 10px 50px;
+
+} 
+
+#header a {
+color: #121212;
+text-decoration: none;
+font-size: 30px; 
+font-family: "Georgia";
+font-color: black;
+}
+
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  color: white;
+  font-size: 17px;
+  font-family: "Georgia";
+  background-color: #1394c4;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 0px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: "Georgia";
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: black/*#f1f1f1*/;
+}
+
+
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color:#1394c4; 
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  min-width: 600px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: "Georgia";
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content 
+.main {
+  margin-top: 60px; /* Add a top margin to avoid content overlay 
+}*/
+
+#menu {
+background-color: #1394c4; 
+padding: 6px 50px 6px 50px;
+
+}
+
+#menu a {
+color: rgb(255,255,255);
+text-decoration: none; 
+font-size: 16px; 
+font-color: black;
+font-family: "Georgia";
+}
+
+#menu a:hover {
+color: #ecf2f3;
+}
+/*
+#sidebar {
+float: left;
+color: #000000;
+min-width: 200px;
+max-height: auto;
+font-family: "Georgia";
+font-size: 15px;
+min-height: 450px;
+height: auto;
+padding: 20px 10px 10px 50px;
+margin: 0;
+font-color: black;
+}
+*/
+#overflowTest {
+  background: rgb(255,255,255);
+  color: #000000;
+  font-family: "Georgia";
+  font-size: 11px;
+  font-color: black;
+  padding: 15px;
+  width: 120px;
+  height: auto;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+
+h1 {
+margin: 0px;
+color: #FFFFFF; 
+font-size:25px; 
+font-family: "Georgia"; 
+font-weight: normal;
+
+}
+
+h2 {
+color: #FFFFFF;
+font-size: 16px; 
+margin: 5px 0 5px 0;
+
+}
+
+table {
+  font-family: "Georgia";
+  border-collapse: collapse;
+  width: 100%;
+  font-color: black;
+}
+
+td, th {
+  
+  text-align: left;
+  padding: 0px;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+}
+
+#main { 
+margin: 0 20px 0 200px;
+padding: 20px 50px 20px 30px;
+color: #000000;
+font-family: "Georgia";
+font-size: 17px; 
+font-color: black;
+height: auto;
+min-height: 450px;
+min-width: 150px;
+line-height: 18px;
+text-align: justify;
+} 
+
+#main a {
+color: #3b7687; 
+text-decoration: none;
+}
+
+#main a:hover {
+color: #444444;
+}
+
+.footer {
+   position: fixed;
+   padding: 6px 50px 6px 50px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   font-family: "Georgia";
+   color: #444444;
+   background: #d6d6d6; 
+   font-size: 11px;
+   text-align: center;
+}
+
+#footer {
+position: fixed;
+padding: 6px 50px 6px 50px;
+background: #d6d6d6; 
+font-family: "Georgia";
+color: #444444;
+font-size: 11px;
+text-align: right;
+}
+
+#footer a {
+position: fixed;
+text-decoration: none; 
+color: #262626;
+}
+
+#footer a:hover {position: fixed;
+color: #666666;
+}
+
+.separator {
+font-size:11px;
+color:#FFFFFF;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+	
+	.button {
+  border: none;
+  color: #008CBA;
+  font-family: "Georgia";
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  cursor: pointer;
+  background-color: #008CBA;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+ width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
