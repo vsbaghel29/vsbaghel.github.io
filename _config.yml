@@ -27,14 +27,14 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  vsbaghel
-#twitter_username: vsbaghel29
+twitter_username: vsbaghel29
 
 
 
 author: "---***---"
 
 
-copyright: "Vivek Singh Baghel"
+copyright: "Vivek"
 
 # title-logo: /pictures/title-logo3.PNG
 # title-logo: /pictures/title-name.PNG
