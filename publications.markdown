@@ -18,7 +18,13 @@ permalink: /publications/
 
 
 # Conference Articles: #							 
-<ol>			
+<ol>
+<li>Syed Sadaf Ali, <b>Vivek Singh Baghel</b>, I.I.Ganapathi, Surya Prakash, N.Son Vu, and N.Werghi
+        		<q> Toe Prints: An Application Study for Biometric Verification in Adults,</q>
+        		<span style="font-style: italic;"> IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops, </span>
+  			<span style="font-weight: bold;font-style: italic;">(CVPRW2021)</span>,
+  			Virtual, June 19-25, <b>2021</b>.</li>
+
 <li><b>Vivek Singh Baghel</b>, Akhilesh Mohan Srivatava, Surya Prakash, and Siddharth Singh,
         		<q> Minutiae Points Extraction using Faster-RCNN,</q>
         		<span style="font-style: italic;"> 7th International Conference on Advanced Computing, Networking, and Informatics, </span>
